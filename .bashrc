@@ -2,8 +2,8 @@
 alias l="ls -la"
 alias mk="make"
 
-# Build an run the program. Flag '-b' forces rebuild and '-c'
-# clears the terminal output before running.
+# Function that builds an runs the program. Flag '-b' forces
+# rebuild and '-c' clears the terminal output before running.
 # - usage: run [-c,-b]
 function run() {
     local cmd="make && out/main"
